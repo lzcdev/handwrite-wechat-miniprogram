@@ -1,0 +1,22 @@
+<!--pages/main/main.wxml-->
+
+<view>
+  <view class='container'>
+    <view class="block" bindtap='go_drv'>
+      <image class='icon' src='../../images/menu_binding_drv.png'></image>
+      <text class='text'>驾驶证违法查询</text>
+    </view>
+
+    <view class='block' bindtap='go_veh'>
+      <image class='icon' src='../../images/menu_binding_veh.png'></image>
+      <text class='text'>机动车违法查询</text>
+    </view>
+  </view>
+
+  <view class='line'></view>
+
+  <view class='bottom_view'>
+    <image class='bottom_image' src='../../images/icon_logo.png'></image>
+    <text class='bottom_text'>东营市公安局交通警察支队</text>
+  </view>
+</view>

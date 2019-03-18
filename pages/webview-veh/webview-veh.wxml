@@ -1,0 +1,2 @@
+<!--pages/webview-veh/webview-veh.wxml-->
+<web-view src="http://dygajj.gov.cn/weixin/foreground/html/query/wfcx_veh.html"></web-view>

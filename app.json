@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/webview-drv/webview-drv",
+    "pages/webview-veh/webview-veh",
+    "pages/index/index",
+    "pages/logs/logs"
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "违章查询",
+    "navigationBarTextStyle": "black"
+  }
+}
