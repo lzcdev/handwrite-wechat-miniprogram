@@ -1,0 +1,11 @@
+<view>
+  <canvas style='width:{{canvasWidth}}px;height:{{canvasHeight}}px' class="canvas" canvas-id="canvas" disable-scroll="true" bindtouchstart="canvasStart" bindtouchmove="canvasMove" bindtouchend="canvasEnd" touchcancle="canvasEnd" binderror="canvasIdErrorCallback"></canvas>
+
+  <view class='control_view'>
+    <button type='primary' size='mini' bindtap="cleardraw">清除画布</button>
+    <button type='primary' size='mini' bindtap='getImg'>导出图片</button>
+  </view>
+
+
+  <image class='img' style='width:{{canvasWidth}}px;height:{{canvasHeight}}px' src="{{imgUrl}}"></image>
+</view>
